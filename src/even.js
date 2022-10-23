@@ -18,17 +18,21 @@ const getTypeOfNumber = () => {
     const figure = getRandomInt(100);
     console.log(`Question: ${figure}`);
     const answer = readlineSync.question('Your answer: ');
-
+    const reversNum = (figure) => (figure % 2 === 0 ? 'yes' : 'no');
     if ((figure % 2 === 0 && answer === 'yes') || (figure % 2 !== 0 && answer === 'no')) {
       console.log(`Your answer: ${answer}\nCorrect!`);
       i += 1;
-    } if (figure % 2 === 0 && answer !== 'yes') {
+    } else {
+      console.log(`${answer} is wrong answer ;(. Correct answer was '${reversNum(figure)}'.\nLet's try again, ${name}!`);
+      break;
+    }
+    /* } if (figure % 2 === 0 && answer !== 'yes') {
       console.log(`${answer} is wrong answer ;(. Correct answer was 'yes'.\nLet's try again, ${name}!`);
     } if (figure % 2 !== 0 && answer !== 'no') {
       console.log(`${answer} is wrong answer ;(. Correct answer was 'no'.\nLet's try again, ${name}!`);
-    }
+    } */
+    console.log(`Congratulations, ${name}!`);
   }
-  console.log(`Congratulations, ${name}!`);
 };
 
 export default getTypeOfNumber;
