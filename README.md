@@ -1,6 +1,7 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/pancenco/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/pancenco/frontend-project-44/actions)
 o[![Maintainability](https://api.codeclimate.com/v1/badges/6ad85fc30b5e1057df84/maintainability)](https://codeclimate.com/github/pancenco/frontend-project-44/maintainability)
-https://asciinema.org/a/9AWhXFdGFjZB9FAFuKmuCEYFh
-https://asciinema.org/connect/7ef3ae43-a966-43bc-9ba1-2e97edf2d5c6
-https://asciinema.org/a/MyU09lolwBfaypbiyMukglKp5
+https://asciinema.org/a/uTvzZ1wxlRSEYCHMURfBr8ZwV
+https://asciinema.org/a/DbcUKp2u7UGkrVGJqdEhj28Bm
+https://asciinema.org/a/sDTPsyF5cxSf09UbRC2Nhbcoj
+https://asciinema.org/a/A18rxUgGDB2rQ4w8MwWuHGgcK
