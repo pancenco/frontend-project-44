@@ -2,6 +2,6 @@
 
 /* eslint-disable import/extensions, no-console */
 
-import getTypeOfNumber from '../src/games/even.js';
+import getArPr from '../src/games/progression.js';
 
-getTypeOfNumber();
+getArPr();

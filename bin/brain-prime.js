@@ -2,6 +2,6 @@
 
 /* eslint-disable import/extensions, no-console */
 
-import getTypeOfNumber from '../src/games/even.js';
+import getPrime from '../src/games/prime.js';
 
-getTypeOfNumber();
+getPrime();

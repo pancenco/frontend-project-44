@@ -2,6 +2,6 @@
 
 /* eslint-disable import/extensions, no-console */
 
-import getTypeOfNumber from '../src/games/even.js';
+import getCalc from '../src/games/calc.js';
 
-getTypeOfNumber();
+getCalc();
